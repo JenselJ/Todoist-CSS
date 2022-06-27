@@ -1,0 +1,255 @@
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+.container-fluid {
+  padding: 0;
+}
+
+.navbar {
+  background-color: #db4c3f;
+  height: 44px;
+}
+
+.dot {
+  height: 20px;
+  width: 20px;
+  background-color: #fff;
+  border-radius: 50%;
+  display: inline-block;
+  border: 1px solid #808080;
+  margin-right: 5px;
+}
+
+/* .pdot {
+  background-color: #fff;
+  border-radius: 50%;
+  display: inline-block;
+  border: 1px none #808080;
+  margin-right: 5px;
+  text-align: center;
+  font-size: 25px;
+  vertical-align: top;
+  padding-top: 0;
+  margin-top: 0;
+} */
+
+.ddot {
+  height: 20px;
+  width: 20px;
+  background-color: #fff;
+  border-radius: 50%;
+  display: inline-block;
+  border: 1px solid black;
+  margin-right: 5px;
+  padding-top: 0;
+  margin-top: 0;
+  visibility: hidden;
+}
+
+.apr-5 {
+  vertical-align: text-top;
+  font-size: 12px;
+  color: #d1453b;
+}
+
+.inbox {
+  vertical-align: text-top;
+  font-size: 12px;
+  color: #808080;
+}
+
+.sidebar {
+  min-height: 100vh;
+  background-color: #FAFAFA;
+}
+
+.today {
+  font-size: 20px;
+    font-weight: 700;
+    line-height: 25px;
+}
+
+.small {
+  font-size: 12px;
+  font-weight: 400;
+  color: grey
+}
+
+.space {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.overdue {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+
+.reschedule {
+  font-size: 14px;
+  color: #d1453b;
+  margin-bottom: 0;
+}
+
+.reschedule:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.last-task {
+  margin-bottom: 35px;
+}
+
+.plus {
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+.add-task {
+  color: #808080;
+}
+
+.view {
+  color: #808080;
+  font-size: 12px;
+  margin-left: 2px;
+}
+
+.view-div:hover {
+  background-color: #EEEEEE;
+  cursor: pointer;
+  border-radius: 5px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+
+.row-todo-give-better-name:hover {
+  cursor: pointer;
+}
+
+.row-todo-give-better-name:hover .invisible-icons {
+  visibility: visible;
+}
+
+.row-todo-give-better-name:hover .drag-dots {
+  visibility: visible;
+}
+
+.drag-dots:hover {
+  background-color: #EEEEEE;
+  cursor: move;
+  border-radius: 5px;
+}
+
+/* .row-todo-give-better-name:hover .more {
+  visibility: visible;
+}
+
+.row-todo-give-better-name:hover .comment {
+  visibility: visible;
+}
+
+.row-todo-give-better-name:hover .due-date {
+  visibility: visible;
+}
+
+.row-todo-give-better-name:hover .edit {
+  visibility: visible;
+} */
+
+.list {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 7px;
+}
+
+.projects {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 7px;
+}
+
+.list:hover {
+  background-color: #EEEEEE;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.drag-dots {
+  transform: translate(-26px, -2px);
+  position: absolute;
+  visibility: hidden; 
+  fill: grey;
+}
+
+.more {
+  fill: grey;
+
+}
+
+.comment {
+  fill: grey;
+
+}
+
+.due-date {
+  fill: grey;
+
+}
+
+.edit {
+  fill: grey;
+
+}
+
+.inbox-div {
+  display: flex;
+}
+
+.inbox-icon {
+  padding-left: 2px;
+  transform: translate(0px, 3px);
+  fill: #246fe0;
+}
+
+.today-icon {
+  fill: #058527;
+}
+
+.upcoming-icon {
+  fill: #692fc2;
+}
+
+.filtersandlabels-icon {
+  fill: #eb8909;
+}
+
+.invisible-icons {
+  transform: translate(27px, 0px);
+  visibility: hidden;
+}
+
+.top-right-icons-div {
+  padding-right: 40px;
+  fill: white;
+}
+
+.top-right-icons {
+  margin-left: 6px;
+}
+
+.top-left-icon {
+  margin-right: 7px;
+  fill: white;
+}
+
+.top-left-div {
+  margin-left: 40px;
+}
+
+.view-icon {
+  fill: grey;
+}

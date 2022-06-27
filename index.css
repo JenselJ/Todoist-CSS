@@ -142,6 +142,7 @@
   background-color: #EEEEEE;
   cursor: move;
   border-radius: 5px;
+  visibility: visible;
 }
 
 /* .row-todo-give-better-name:hover .more {
@@ -187,23 +188,45 @@
 
 .more {
   fill: grey;
+}
 
+.more:hover{
+  background-color: #EEEEEE;
+  cursor: pointer;
+  border-radius: 5px;
 }
 
 .comment {
   fill: grey;
-
 }
+
+.comment:hover{
+  background-color: #EEEEEE;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
 
 .due-date {
   fill: grey;
+}
 
+.due-date:hover{
+  background-color: #EEEEEE;
+  cursor: pointer;
+  border-radius: 5px;
 }
 
 .edit {
   fill: grey;
-
 }
+
+.edit:hover{
+  background-color: #EEEEEE;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
 
 .inbox-div {
   display: flex;
